@@ -1,0 +1,196 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+section{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: none;
+}
+section>article{
+    height: 100px;
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    justify-content:left;
+}
+section>article>.logo{
+    height: 100px;
+    width: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+
+}
+section>article>.logo>a>img{
+    margin-top: 25px;
+    width: 60px;
+    height: 50px;
+
+
+}
+section>article>.Menu{
+    height: 100px;
+    width: 40%;
+    background-color: black;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+section>article>.Menu>ol{
+    list-style-type: none;
+align-items: center;    
+display: flex;
+}
+section>article>.Menu>ol>li{
+    margin: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.grid{
+    /* background-color: aqua; */
+    width: 10%;
+    display: grid;
+    float: left;
+}
+.grida, .gridb, .gridc{
+    height: 10px;
+    width: 30px;
+    /* background-color: white; */
+    margin: -1px 0;
+    display: flex;
+}
+.flexa, .flexb,.flexc{
+    height: 4px;
+    width: 4px;
+    background-color: white;
+    margin: 0 2.5px;
+    
+}
+section>article>.Menu1{
+    height: 100px;
+    width: 8%;
+    background-color: black;
+}
+section>article>.search{
+    height: 100px;
+    width: 25%;
+    background-color: black;
+}
+section>article>.search>.div{
+    border: 1px solid gray;
+    display: flex;
+    margin: 20px;
+
+}
+.search i{
+    color: white;
+    margin: 5px;
+
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: gray;
+    
+}
+.div input{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    outline: none;
+    padding: 10px;
+    border: none;
+    font-size: 12px;
+    width: 3000px;
+}
+
+section>article>.Menu2{
+    height: 100px;
+    width: 22%;
+    background-color:black;
+}
+.Menu2 button{
+    padding-left: 40px;
+    margin: 20px;
+    width: 120px;
+}
+.Menu2 button i{
+margin: auto -20px;
+margin-top: 4px;
+margin-right:4px;
+}
+.Menu2 .login{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 20px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Menu2 .login a{
+ color: white;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ padding-right: 10px;
+}
+.Menu2{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.Menu a{
+    color: white;
+    text-decoration: none;
+}
+.Menu a:hover{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid white;
+}
+article{
+    width: 100%;
+}
+.Menu2 #al{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.092);
+    font-size: 20px;
+    padding: 5px;
+}
+.login a{
+    margin-left: 20px;
+}
+.Menu2{
+    padding-bottom: 20px;
+}
+#vio{
+    background-color: blueviolet;
+}
+#ham{
+    color: white;
+    margin-left: 280px;
+    font-size: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+.chan{
+    display: none;
+}    
